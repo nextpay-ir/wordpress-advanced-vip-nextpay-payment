@@ -1,0 +1,376 @@
+@font-face {
+  font-family: 'yekan';
+  src: url('../fonts/yekan.eot?#') format('eot'),
+       url('../fonts/yekan.woff') format('woff'),
+       url('../fonts/yekan.ttf') format('truetype');
+}
+
+.clr{
+	clear: both;
+}
+.hdn{
+	display: none;
+}
+.av-option-panel .av-tab-panel{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: none;
+	border: 1px solid rgb(218, 218, 218);
+	padding: 0px 20px 20px 20px;
+	background: rgb(252, 252, 252);
+	box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.07);
+}
+
+.av-option-panel .av-tab-panel h2{
+	font-family: yekan;
+	font-size: 19px;
+	margin-bottom: 20px;
+}
+
+.av-option-panel .av-tab-panel *{
+	color: rgb(77, 115, 156);
+	text-shadow: 1px 1px white;
+}
+
+.av-option-panel .nav-tab{
+	font-family: yekan;
+	font-size: 17px;
+	cursor: pointer;
+}
+
+.av-option-panel .av-tab-panel .section{
+	border-bottom: 1px solid rgb(233, 233, 233);
+	padding: 20px 0;
+	box-shadow: 0px 1px 0px 0px rgb(255, 255, 255);
+}
+
+.av-option-panel .av-tab-panel .section .setting-label{
+	margin-left: 150px;
+	width: 180px;
+	float:right;
+	min-height: 50px;
+}
+
+.av-option-panel .av-tab-panel .section .radio-label{
+	margin-left: 5px;
+	display: inline;
+	position: relative;
+	top: -3px;
+}
+
+.av-option-panel .av-tab-panel .section input[type=text]{
+	width: 250px
+}
+
+.av-option-panel .av-tab-panel .section textarea{
+	width: 350px;
+	height: 100px
+}
+
+.av-option-panel .av-tab-panel .section select{
+	padding: 2px 5px;
+	height: 28px;
+	width: 250px;
+}
+
+.av-option-panel .av-tab-panel .section select[multiple]{
+	height: 90px;
+}
+
+
+
+#new-time-field{
+	margin-top: 10px;
+}
+
+.av_draggable_item{
+	margin-bottom: 15px;
+	background: rgb(255, 251, 245);
+	border: 1px solid rgb(231, 220, 203);
+	padding: 15px;
+}
+
+.av_remove-draggble_item{
+	background: rgb(226, 80, 44);
+	color: white !important;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.07) !important;
+	padding: 5px;
+	border: 1px solid rgb(162, 94, 78);
+	float: left;
+	border-radius: 2px;
+	cursor: pointer;
+}
+.av_remove-draggble_item:hover{
+	background: rgb(213, 83, 51);
+}
+.av_remove-draggble_item:active{
+	background: rgb(170, 63, 37);
+}
+
+.ui-state-highlight { 
+	background: gray;
+	height: 1px;
+	margin-bottom: 15px;
+}
+
+#av_settings_page_preloader,#ad_settings_saved,#ad_settings_save_error{
+	display: none;
+}
+
+h3.av-h3{
+	font-family: yekan, tahoma;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.av_vip_member_name{
+	display: inline;
+	position: relative;
+	top: -4px;
+	margin-right: 8px;
+}
+
+.av_vip_member_avatar{
+	position: relative;
+	top: 5px;
+}
+
+.av-button-new-file,.av-button-files-list{
+	margin: 15px 0 15px 0;
+}
+
+.av-button{
+	background: rgb(60, 147, 216);
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	padding: 7px 10px;
+	font-family: yekan,tahoma;
+	font-size: 13px;
+	box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.56);
+	border: none;
+}
+
+.av-button:hover{
+	color: white;
+	background: rgb(90, 179, 250);
+}
+.av-button:active{
+	color: white;
+	outline: none;
+	box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.56);
+}
+
+.av-vip-file-item{
+	text-align: center;
+	
+}
+.av-vip-file-item{
+	margin-bottom: 15px;
+}
+
+.av-delete-file{
+	margin-right: 5px;
+	color: rgb(218, 73, 73);
+}
+
+.av-files-table td,
+.av-payments-table td{
+	padding: 18px 10px 16px;
+}
+
+.av-files-table td code,
+.av-payments-table td code{
+	direction: ltr !important;
+	text-align:left !important;
+}
+
+.av-page-number-btn{
+	float: right;
+	margin-left: 10px;
+	padding: 2px 3px;
+	margin-top: 20px;
+}
+
+.av-page-number-btn.current{
+	background: black;
+}
+
+
+.delete_field{
+	display: inline;
+	color: rgb(214, 30, 30);
+}
+
+#av-actions-list-btn{
+	position: relative;
+	top: 15px;
+}
+
+#av-actions-list-btn > a{
+	cursor: pointer;
+}
+
+#av-actions-list{
+	position: absolute;
+	top: 0;
+	right: 85px;
+	padding: 0;
+	margin: 0;
+	width: 180px;
+}
+
+#av-actions-list li{
+
+}
+#av-actions-list li a{
+	display: block;
+	background: rgb(18, 62, 80);
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	font-family: yekan;
+	font-size: 13px;
+}
+
+#av-actions-list li a:hover{
+	background: rgb(32, 106, 136);
+}
+#av-actions-list li a:active{
+	background: rgb(8, 28, 36);
+}
+
+.ui-datepicker td span,
+.ui-datepicker td a,
+.ui-datepicker .ui-datepicker-title,
+.ui-datepicker th{
+	font-family: yekan,tahoma;
+	font-weight: normal !important;
+}
+
+#add-custom-user{
+	background: rgb(255, 255, 255);
+	padding: 20px;
+	margin: 20px;
+	border: 1px solid rgb(1, 5, 7);
+	border-radius: 5px;
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.22);
+}
+#add-custom-user select#users_list{
+	width: 220px;
+}
+
+#add-custom-user label{
+	margin-left: 20px;
+	font-family: yekan;
+	font-size: 13px;
+}
+
+#add-custom-user  table tr td{
+	padding: 10px 0 ;
+}
+#add-custom-user  table tr td.first-side{
+	width: 400px;
+}
+
+.av-group-incearsing{
+	padding: 50px;
+}
+
+.av-group-incearsing > form > table{
+	margin: 0 auto;
+	background: rgb(250, 250, 250);
+	border: 1px solid rgb(219, 219, 219);
+	box-shadow: 4px 4px 0 0px rgba(0, 0, 0, 0.08);
+	padding: 20px;
+}
+
+
+.av-group-incearsing > form > table tr td{
+	padding: 10px 5px;
+}
+
+.av-admin-message{
+	text-shadow: 1px 1px rgba(255, 255, 255, 0.59);
+	font-family: yekan;
+	font-size: 13px;
+	margin: 5px 0;
+	padding: 10px !important;
+}
+
+.av-admin-message.success{
+	background: rgb(187, 228, 114);
+	border: 1px solid rgb(117, 156, 47);
+	color: rgb(70, 90, 34);
+}
+
+.av-admin-message.error{
+
+}
+
+.av-dashboard-box{
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	width: 600px;
+	margin-right: -310px;
+	height: 140px;
+	margin-top: -80px;
+	background: rgb(250, 250, 250);
+	border: 1px solid rgb(201, 201, 201);
+	padding: 20px;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.11);
+}
+
+.av-dashboard-box p a{
+	text-decoration: none;
+}
+.av-dashboard-box p{
+	font-family: yekan;
+	font-size: 18px;
+	line-height: 35px;
+	margin-top: -10px;
+	text-align: center;
+}
+
+.av-code-section .setting-label{
+	
+	margin-left: 0;
+	margin-bottom: 15px;
+
+}
+
+.av-help-sec{
+	
+	padding: 10px;
+	background: #EAF6FA;
+	border: 1px solid #C3DCE4;
+	
+	margin-bottom: 40px;
+	
+}
+.av-help-sec .q{
+	cursor: pointer;
+}
+.av-help-sec .q p{
+	color: #678E9B;
+	text-shadow: 1px 1px #FFF;
+	font-family: yekan,tahoma;
+	font-size: 13px;
+}
+.av-help-sec .a{
+	
+	
+	
+}
+.av-help-sec .a p{
+	color: #678E9B;
+	text-shadow: 1px 1px #FFF;
+	font-family: yekan,tahoma;
+	font-size: 13px;
+	margin-right: 15px;
+	border-right: 1px solid #B6B6B6;
+	padding-right: 10px;
+	line-height: 2;
+}

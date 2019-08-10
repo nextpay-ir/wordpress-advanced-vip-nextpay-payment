@@ -833,7 +833,7 @@
 	
 						$SandBox 			 = false;
 						$nextpay_apikey      = $av_settings['nextpay_apikey'];
-						$PriceValue 		 = (intval($inserted['payment_price'])*10);
+						$PriceValue 		 = intval($inserted['payment_price']);
 						$ReturnUrl 			 = site_url().'/?av_after_payment=true&agency=nextpay';
 						$InvoiceNumber 		 = $inserted['payment_id'];
 						$custom              = json_encode(array('amount'=>$PriceValue));
